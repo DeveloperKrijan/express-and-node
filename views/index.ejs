@@ -39,7 +39,7 @@
 
     <!-- ✅ Tasks Section -->
     <div class="tasks p-10 flex gap-4 flex-wrap justify-center w-full max-w-5xl mt-10">
-      <% if (files.length> 0) { %>
+      <% if (files && files.length > 0) { %>
         <% files.forEach(function(val) { %>
           <div class="task min-w-72 px-4 py-4 rounded-md bg-zinc-800 shadow-md w-full sm:w-72">
             <h1 class="text-white text-xl font-semibold tracking-tight break-words">
